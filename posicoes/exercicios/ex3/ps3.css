@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header, footer {
+    padding: 20px;
+    background-color: #add8e6;
+    height: 90px;
+}
+nav {
+    background-color: #b0c4de;
+    padding: 20px;
+    height: 50px;
+}
+.main-content {
+    display: flex;
+}
+section {
+    flex: 3;
+    background-color: #87ceeb;
+    padding: 20px;
+    height: 300px;
+}
+aside {
+    flex: 1;
+    background-color: #6ea5d5;
+    padding: 20px;
+    height: 300px;
+}
+footer {
+    background-color: #69bbed;
+    height: 33px;
+}

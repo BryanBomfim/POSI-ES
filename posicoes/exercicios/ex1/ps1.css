@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header, nav, section, footer {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #fff;
+}
+header {
+    background-color: #add8e6;
+    height: 105px;
+}
+nav {
+    background-color: #b0c4de;
+    height: 55px;
+}
+section {
+    background-color: #87ceeb;
+    height: 250px;
+}
+footer {
+    background-color: #87cefa;
+    height: 55px;
+}

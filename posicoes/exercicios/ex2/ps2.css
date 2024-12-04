@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #add8e6;
+    height: 100px;
+}
+.content {
+    display: flex;
+    flex: 1;
+}
+nav {
+    background-color: #87ceeb;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    height: 360px;
+}
+section {
+    background-color: #b0c4de;
+    flex: 3;
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    background-color: #87cefa;
+    height: 52px;
+}

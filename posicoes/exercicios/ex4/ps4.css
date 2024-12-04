@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #add8e6;
+    position: relative;
+    height: 100vh;
+}
+.corner {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+.red {
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+.green {
+    background-color: green;
+    top: 0;
+    right: 0;
+}
+.yellow {
+    background-color: yellow;
+    bottom: 0;
+    left: 0;
+}
+.grey {
+    background-color: grey;
+    bottom: 0;
+    right: 0;
+}
